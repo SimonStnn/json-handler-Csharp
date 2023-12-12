@@ -1,8 +1,8 @@
-# json-handler-C-
+# JSON handler C\#
 
-this is my json handler for c# if there are any errors or problems tell me
+This is my json handler for C#.
 
-## how to get the json handler
+## How to get the json handler
 
 1. download the zip
 1. unpack it
@@ -10,30 +10,30 @@ this is my json handler for c# if there are any errors or problems tell me
 1. in the file you want to use the JSON handler type as top-level statement (so the statement at the top of your page) "using JSON = jsonHandler.JSON;"
 1. done
 
-## how to use the json handler
+## How to use the json handler
 
-### creating a JSON instance
+### Creating a JSON instance
 
 - JSON <variable_name> = new JSON(); (this should also work -> JSON <variable_name> = new();)
 - example: JSON json = new();
 
-### using GetJSON method
+### Using GetJSON method
 
 - json.GetJSON(data.json)
 
-which file will get picked ??
-simple it will go as followed
+Which file will get picked ??
+Simple, it will go as followed
 
 c:\\<path_to_solution_folder>\\data.json
 
-so if you do something like:
+So if you do something like:
 json.GetJSON(folder_name/data.json)
 
-it will go like this
+It will go like this
 
 c:\\<path_to_solution_folder>\\folder_name/data.json
 
-easy, right? :D
+Easy, right? :D
 
 > [!WARNING]  
 > NOT COMPLETE YET!!
