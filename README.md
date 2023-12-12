@@ -12,6 +12,6 @@ this is my json handler for c# if there are any errors or problems tell me
 ## how to use the json handler
 
 ### creating a JSON instance
-- JSON <variable_name> = new JSON();
+- JSON <variable_name> = new JSON(); (this should also work -> JSON <variable_name> = new();)
 
 easy, right? :D
