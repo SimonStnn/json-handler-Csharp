@@ -9,4 +9,9 @@ this is my json handler for c# if there are any errors or problems tell me
 4. in the file you want to use the JSON handler type as top-level statement (so the statement at the top of your page) "using JSON = jsonHandler.JSON;"
 5. done
 
+## how to use the json handler
+
+### creating a JSON instance
+- JSON <variable_name> = new JSON();
+
 easy, right? :D
