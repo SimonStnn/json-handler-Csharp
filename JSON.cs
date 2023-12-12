@@ -3,7 +3,7 @@ namespace jsonHandler
     public class JSON
     {
         private string startPath = Directory.GetParent(Directory.GetCurrentDirectory())!.Parent!.Parent!.FullName;
-        public string Stringify(string raw)
+        public static string Stringify(string raw)
         {
             /*
              * changes the raw data that looks like this:
@@ -20,21 +20,21 @@ namespace jsonHandler
             raw = raw.Replace(" ", "");
             return raw;
         }
-        public void sendData(string path, string data)
+        public void SendData(string path, string data)
         {
             /*
              * sends data to a file
              */
             File.WriteAllText(startPath + path, data);
         }
-        public string getJSON(string path)
+        public string GetJSON(string path)
         {
             /*
              * gets the json data from a file
              */
             return Stringify(File.ReadAllText(startPath + path));
         }
-        public string GetValue(string json, string key)
+        public static string GetValue(string json, string key)
         {
             /*
              * gets the value of a key in a json string
@@ -50,7 +50,7 @@ namespace jsonHandler
             }
             return "null";
         }
-        public string ChangeValue(string json, string key, string value)
+        public static string ChangeValue(string json, string key, string value)
         {
             /*
              * changes the value of a key in a json string
