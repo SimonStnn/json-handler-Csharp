@@ -32,3 +32,5 @@ c:\\<path_to_solution_folder>\\folder_name/data.json
 
 
 easy, right? :D
+
+NOT COMPLETE YET!!
