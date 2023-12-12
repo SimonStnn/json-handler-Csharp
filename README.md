@@ -1,8 +1,12 @@
 # json-handler-C-
 this is my json handler for c# if there are any errors or problems tell me
 
-## how to use the JSON file
+## how to get the json handler
 
-add the file to your solution:
-  - you can do this by adding a class file and pasting the code as followed
-    - right click on the file 
+1. download the zip
+2. unpack it
+3. place the JSON.cs file in your solution
+4. in the file you want to use the JSON handler type as top-level statement (so the statement at the top of your page) "using JSON = jsonHandler.JSON;"
+5. done
+
+easy, right? :D
