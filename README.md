@@ -14,24 +14,19 @@ This is my json handler for C#.
 
 ### Creating a JSON instance
 
-- JSON <variable_name> = new JSON(); (this should also work -> JSON <variable_name> = new();)
-- example: JSON json = new();
+This is how you make a JSON instance.
+
+```csharp
+JSON json = new();
+```
 
 ### Using GetJSON method
 
-- json.GetJSON(data.json)
+To get the JSON from a `.json` file you can use the `.GetJSON` method.
 
-Which file will get picked ??
-Simple, it will go as followed
-
-c:\\<path_to_solution_folder>\\data.json
-
-So if you do something like:
-json.GetJSON(folder_name/data.json)
-
-It will go like this
-
-c:\\<path_to_solution_folder>\\folder_name/data.json
+```csharp
+json.GetJSON("./path-to-json.json")
+```
 
 Easy, right? :D
 
